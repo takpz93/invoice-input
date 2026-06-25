@@ -1,0 +1,325 @@
+{
+  "_meta": {
+    "yearMonth": "2026-06",
+    "updatedAt": "2026-06-25T15:30:00.000Z",
+    "gasYen": 164,
+    "fuelKmPerL": 21,
+    "note": ""
+  },
+  "shootDays": [
+    {
+      "date": "6/1",
+      "clientId": "actvision",
+      "hours": 7,
+      "note": ""
+    },
+    {
+      "date": "6/5",
+      "clientId": "kins",
+      "hours": 3,
+      "note": ""
+    },
+    {
+      "date": "6/9",
+      "clientId": "kins",
+      "hours": 7,
+      "note": ""
+    },
+    {
+      "date": "6/11",
+      "clientId": "sumisyou",
+      "hours": 4,
+      "note": ""
+    },
+    {
+      "date": "6/18",
+      "clientId": "buddica",
+      "hours": 8,
+      "note": ""
+    },
+    {
+      "date": "6/24",
+      "clientId": "istory",
+      "hours": 4,
+      "note": "越谷駅→恵比寿駅（往復）"
+    },
+    {
+      "date": "6/29",
+      "clientId": "actvision",
+      "hours": null,
+      "note": ""
+    },
+    {
+      "date": "6/30",
+      "clientId": "kins",
+      "hours": null,
+      "note": ""
+    }
+  ],
+  "extras": [
+    {
+      "clientId": "kins",
+      "lineType": "etc",
+      "shootDate": "6/5",
+      "note": "松戸IC-北の丸IC-新木場-常磐道接続",
+      "tripType": "oneway",
+      "taxMode": "incl",
+      "amount": 1830
+    },
+    {
+      "clientId": "kins",
+      "lineType": "gas",
+      "shootDate": "6/5",
+      "note": "",
+      "tripType": "oneway",
+      "distanceKm": 91.5
+    },
+    {
+      "clientId": "kins",
+      "lineType": "etc",
+      "shootDate": "6/9",
+      "note": "草加IC→新木場IC（往復）",
+      "tripType": "roundtrip",
+      "taxMode": "incl",
+      "amount": 2050
+    },
+    {
+      "clientId": "kins",
+      "lineType": "gas",
+      "shootDate": "6/9",
+      "note": "",
+      "tripType": "roundtrip",
+      "distanceKm": 44.2
+    },
+    {
+      "clientId": "sumisyou",
+      "lineType": "etc",
+      "shootDate": "6/11",
+      "note": "草加IC-佐倉IC",
+      "tripType": "roundtrip",
+      "taxMode": "incl",
+      "amount": 2780
+    },
+    {
+      "clientId": "sumisyou",
+      "lineType": "gas",
+      "shootDate": "6/11",
+      "note": "",
+      "tripType": "roundtrip",
+      "distanceKm": 72.5
+    },
+    {
+      "clientId": "istory",
+      "lineType": "train",
+      "shootDate": "6/24",
+      "note": "越谷駅→恵比寿駅",
+      "tripType": "roundtrip",
+      "taxMode": "incl",
+      "amount": 576
+    },
+    {
+      "clientId": "actvision",
+      "lineType": "train",
+      "shootDate": "6/1",
+      "note": "北千住駅-新大阪駅",
+      "tripType": "oneway",
+      "taxMode": "incl",
+      "amount": 14720
+    },
+    {
+      "clientId": "actvision",
+      "lineType": "train",
+      "shootDate": "6/1",
+      "note": "新大阪駅 - 北千住駅",
+      "tripType": "oneway",
+      "taxMode": "incl",
+      "amount": 14520
+    },
+    {
+      "clientId": "actvision",
+      "lineType": "train",
+      "shootDate": "6/1",
+      "note": "越谷駅-北千住駅",
+      "tripType": "roundtrip",
+      "taxMode": "incl",
+      "amount": 324
+    },
+    {
+      "clientId": "actvision",
+      "lineType": "custom",
+      "shootDate": "6/1",
+      "note": "",
+      "taxMode": "incl",
+      "amount": 9090,
+      "customCategory": "交通費・宿泊費 - 宿泊費",
+      "customLabel": "アパホテル〈新大阪駅前〉"
+    },
+    {
+      "clientId": "buddica",
+      "lineType": "custom",
+      "shootDate": "6/18",
+      "note": "羽田空港 - 高松空港",
+      "taxMode": "incl",
+      "amount": 52765,
+      "customCategory": "交通費・宿泊費 - 航空券代",
+      "customLabel": ""
+    },
+    {
+      "clientId": "buddica",
+      "lineType": "custom",
+      "shootDate": "6/17",
+      "note": "新越谷駅 - 羽田空港",
+      "taxMode": "incl",
+      "amount": 1600,
+      "customCategory": "交通費・宿泊費 - バス代",
+      "customLabel": ""
+    },
+    {
+      "clientId": "buddica",
+      "lineType": "custom",
+      "shootDate": "6/19",
+      "note": "羽田空港 - 新越谷駅",
+      "taxMode": "incl",
+      "amount": 1600,
+      "customCategory": "交通費・宿泊費 - バス代",
+      "customLabel": ""
+    },
+    {
+      "clientId": "buddica",
+      "lineType": "train",
+      "shootDate": "6/18",
+      "note": "越谷駅 - 新越谷駅",
+      "tripType": "roundtrip",
+      "taxMode": "incl",
+      "amount": 157
+    },
+    {
+      "clientId": "buddica",
+      "lineType": "custom",
+      "shootDate": "6/18",
+      "note": "ホテル - フェニックスプロ",
+      "taxMode": "incl",
+      "amount": 2200,
+      "customCategory": "交通費・宿泊費 - タクシー代",
+      "customLabel": ""
+    },
+    {
+      "clientId": "buddica",
+      "lineType": "custom",
+      "shootDate": "6/17",
+      "note": "高松空港 - 瓦町",
+      "taxMode": "incl",
+      "amount": 900,
+      "customCategory": "交通費・宿泊費 - バス代",
+      "customLabel": ""
+    },
+    {
+      "clientId": "buddica",
+      "lineType": "custom",
+      "shootDate": "6/19",
+      "note": "瓦町 - 高松空港",
+      "taxMode": "incl",
+      "amount": 900,
+      "customCategory": "交通費・宿泊費 - バス代",
+      "customLabel": ""
+    },
+    {
+      "clientId": "buddica",
+      "lineType": "custom",
+      "shootDate": "6/18",
+      "note": "",
+      "taxMode": "incl",
+      "amount": 9504,
+      "customCategory": "撮影用備品",
+      "customLabel": ""
+    },
+    {
+      "clientId": "youtown",
+      "lineType": "instagram_reel",
+      "shootDate": "6/3",
+      "postDate": "6/3",
+      "note": "ルームツアー"
+    },
+    {
+      "clientId": "youtown",
+      "lineType": "instagram_reel",
+      "shootDate": "6/13",
+      "postDate": "6/3",
+      "note": "鉄粉除去"
+    },
+    {
+      "clientId": "youtown",
+      "lineType": "instagram_reel",
+      "shootDate": "6/13",
+      "postDate": "6/13",
+      "note": "ヘッドライト"
+    }
+  ],
+  "manualVideos": [
+    {
+      "clientId": "watakyu",
+      "type": "main",
+      "postDate": "6/25"
+    },
+    {
+      "clientId": "watakyu",
+      "type": "clip_short",
+      "postDate": "6/29"
+    },
+    {
+      "clientId": "kins",
+      "type": "main",
+      "postDate": "6/27"
+    },
+    {
+      "clientId": "kins",
+      "type": "main",
+      "postDate": "6/30"
+    },
+    {
+      "clientId": "sumisyou",
+      "type": "main",
+      "postDate": "6/27"
+    },
+    {
+      "clientId": "tenryohai",
+      "type": "main",
+      "postDate": "6/27"
+    },
+    {
+      "clientId": "buddica",
+      "type": "clip_short",
+      "postDate": "6/24"
+    },
+    {
+      "clientId": "buddica",
+      "type": "main",
+      "postDate": "6/26"
+    },
+    {
+      "clientId": "buddica",
+      "type": "x_short",
+      "postDate": "6/26"
+    },
+    {
+      "clientId": "istory",
+      "type": "clip_short",
+      "postDate": "6/25"
+    },
+    {
+      "clientId": "istory",
+      "type": "main",
+      "postDate": "6/27"
+    },
+    {
+      "clientId": "senkoukai",
+      "type": "main",
+      "postDate": "6/27"
+    },
+    {
+      "clientId": "actvision",
+      "type": "main",
+      "postDate": "6/27"
+    }
+  ]
+}

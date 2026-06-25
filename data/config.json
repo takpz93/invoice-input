@@ -1,0 +1,35 @@
+{
+  "clients": [
+    { "id": "watakyu", "invoiceName": "有限会社綿久　様", "rssKey": "綿久", "rssId": "UCxz-Av19JTYzVbfuv4pZuGg" },
+    { "id": "kins", "invoiceName": "株式会社KINS　様", "rssKey": "KINS", "rssId": "UCXAU7ks-wPVoFJykHn08zvA" },
+    { "id": "sumisyou", "invoiceName": "株式会社澄昭　様", "rssKey": "SUMISYOU", "rssId": "UC9QpHFv5YLQsWOhYzljchUw" },
+    { "id": "tenryohai", "invoiceName": "天領盃酒造株式会社　様", "rssKey": "天領盃", "rssId": "UCx8tnZhehtNYsHBHpeHqHOg" },
+    { "id": "buddica", "invoiceName": "BUDDICA PHOENIX PRO（株式会社BUDDICA）　様", "rssKey": "BUDDICA", "rssId": "UCnCln-f70Ew-UDGZFA8fDig" },
+    { "id": "senkoukai", "invoiceName": "千勝会　様", "rssKey": null, "rssId": "UCqGpNSBrcuKv_qTLeiD7hvg" },
+    { "id": "istory", "invoiceName": "株式会社iStory　様", "rssKey": "iStory", "rssId": "UCvClVdCdSr6_R8Y5LOURCaw" },
+    { "id": "youtown", "invoiceName": "株式会社YOU-TOWN　様", "rssKey": null, "rssId": null },
+    { "id": "actvision", "invoiceName": "Actvision税理士法人　様", "rssKey": null, "rssId": "UCp4fsj7i-Wb2iOk1C5lQRww" }
+  ],
+  "extraLineTypes": [
+    { "id": "car_drive", "category": "交通費・宿泊費", "label": "車移動", "input": "carDrive", "defaultTaxMode": "incl", "tripMode": true },
+    { "id": "etc", "category": "交通費・宿泊費", "label": "高速道路（ETC）", "input": "amount", "defaultTaxMode": "incl", "tripMode": true },
+    { "id": "gas", "category": "交通費・宿泊費", "label": "ガソリン代", "input": "distanceKm", "hint": "片道km → 往復選択で×2して税抜計算", "tripMode": true },
+    { "id": "train", "category": "交通費・宿泊費", "label": "電車代", "input": "amount", "defaultTaxMode": "incl", "tripMode": true },
+    { "id": "transport_etc", "category": "交通費", "label": "高速道路（ETC）", "input": "amount", "defaultTaxMode": "incl", "tripMode": true },
+    { "id": "transport_gas", "category": "交通費", "label": "ガソリン代", "input": "distanceKm", "hint": "片道km", "tripMode": true },
+    { "id": "parking", "category": "駐車場代", "label": "駐車場代", "input": "amount", "defaultTaxMode": "excl" },
+    { "id": "shoot_fee", "category": "撮影費", "label": "撮影費", "input": "amount", "defaultTaxMode": "excl", "defaultAmount": 15000 },
+    { "id": "michaku", "category": "密着オプション", "label": "密着オプション", "input": "postDate", "defaultAmount": 15000, "hint": "該当動画の投稿日（M/D）" },
+    { "id": "supplies", "category": "撮影用品・取材費", "label": "撮影用品・取材費", "input": "amount", "defaultTaxMode": "excl" },
+    { "id": "instagram_reel", "category": "Instagramリール用ショート動画制作", "label": "Instagramリール", "input": "postDate", "defaultAmount": 20000, "hint": "投稿日（M/D）" },
+    { "id": "setup_fee", "category": "初期アカウント投稿コンセプト・競合分析", "label": "初期開設費", "input": "amount", "defaultTaxMode": "excl", "defaultAmount": 50000 },
+    { "id": "custom", "category": "その他", "label": "自由入力", "input": "custom", "defaultTaxMode": "excl" }
+  ],
+  "manualVideoTypes": [
+    { "id": "main", "category": "動画制作", "price": 60000, "hint": "RSSに未反映の投稿予定" },
+    { "id": "clip_short", "category": "切り抜きショート制作", "price": 10000, "hint": "切り抜きショート（投稿予定）" },
+    { "id": "kins_short", "category": "ショート動画投稿", "price": 1000, "hint": "KINSショート投稿" },
+    { "id": "x_short", "category": "X用ショート制作", "price": 5000, "hint": "本編と同日のX用" }
+  ],
+  "defaults": { "gasYen": 164, "fuelKmPerL": 21 }
+}
